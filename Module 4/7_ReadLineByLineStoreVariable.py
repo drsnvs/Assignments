@@ -4,4 +4,4 @@ file = open("NewFile.txt",'r')
 # print(file.read())
 
 for i in file.readlines():
-    print("Line:",file.readline())
+    print(f"Line:{1}",i)
